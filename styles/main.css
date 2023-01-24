@@ -1,0 +1,69 @@
+* {
+  font-family: monospace;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title {
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+.title__text {
+  font-size: 50px;
+  color: white;
+}
+
+.app {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 500px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app__top {
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 30px 0px;
+  border-radius: 10px;
+}
+.app__name {
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.app__guess {
+  background-color: #8c8a4a;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  color: white;
+}
+.app__guess:hover {
+  background-color: #414022;
+}
+.app__bot {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 500px;
+  padding: 10px;
+  width: 100%;
+}
+.app__result {
+  font-size: 100px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
